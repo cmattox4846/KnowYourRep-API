@@ -15,5 +15,5 @@ class User(AbstractUser):
     # middle_name= models.CharField(max_length=20, blank=True),
     state = models.CharField(max_length=50, blank=True)
     party = models.CharField(max_length=50, blank= True)
-    zip_code = models.IntegerField(default=11111, blank= True)
+    zip_code = models.CharField(max_length=10, blank= True)
    
